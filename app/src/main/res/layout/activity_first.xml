@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.logicalquiz_interviewtest.FirstActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/job_interview_image"
+        android:src="@drawable/jobinterviewpost"
+        android:scaleType="centerCrop"
+        android:alpha="0.3"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/welcome_img_height"
+        android:contentDescription="@string/welcome_image"
+        android:src="@drawable/welcome"
+        android:id="@+id/welcome_image"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/test_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/welcome_image"
+        android:layout_marginTop="@dimen/top_margin_text_details"
+        android:paddingLeft="@dimen/left_padding_text_details"
+        android:paddingStart="@dimen/left_padding_text_details"
+        android:paddingRight="@dimen/right_padding_text_details"
+        android:paddingEnd="@dimen/right_padding_text_details"
+        android:text="@string/text_details"
+        android:textAlignment="center"
+        android:textColor="@color/color_text_details"
+        android:textSize="@dimen/size_text_details"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/test_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/top_margin_edit_text"
+        android:hint="@string/text_edit_text"
+        android:textSize="@dimen/size_text_edit_text"
+        android:inputType="textCapWords"
+        android:id="@+id/editText" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/top_margin_click_text"
+        android:layout_below="@id/editText"
+        android:text="@string/click_the_button_text"
+        android:textColor="@color/click_button_text"
+        android:textSize="@dimen/click_button_size_text"
+        android:id="@+id/textView3" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText"
+        android:text="@string/button_start"
+        android:layout_marginBottom="@dimen/marg_bottom_start_button"
+        android:layout_marginTop="@dimen/marg_top_start_button"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/start_button_text_color"
+        android:id="@+id/start_button"
+        android:background="@color/backgr_start_button"
+        />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_views_margin_top">30dp</dimen>
+    <dimen name="dimen_hint_button">70dp</dimen>
+    <dimen name="margin_top_hint_button">36dp</dimen>
+    <dimen name="text_size_timer">36sp</dimen>
+    <dimen name="margin_top_timer">8dp</dimen>
+    <dimen name="margins_main_layout">36dp</dimen>
+    <dimen name="margin_top_radiob">8dp</dimen>
+    <dimen name="paddings_radiob">8dp</dimen>
+    <dimen name="margin_left_radiob_question5">85dp</dimen>
+    <dimen name="left_marggin_layout_checkboxes">16dp</dimen>
+    <dimen name="top_margin_checkboxes">8dp</dimen>
+    <dimen name="start_margin_checkboxes">8dp</dimen>
+    <dimen name="top_margin_ll_images">24dp</dimen>
+    <dimen name="padding_submitbut">10dp</dimen>
+    <dimen name="right_margin_submitbut">76dp</dimen>
+    <dimen name="padding_restartbut">8dp</dimen>
+    <dimen name="margin_ll_ressub_but">36dp</dimen>
+    <dimen name="margintop_ll_ressub_but">56dp</dimen>
+    <dimen name="width_images_questions">220dp</dimen>
+    <dimen name="bottom_marg_img">16dp</dimen>
+    <dimen name="top_marg_img">16dp</dimen>
+    <dimen name="start_marg_radiobtn_img_questions">16dp</dimen>
+    <dimen name="welcome_img_height">100dp</dimen>
+    <dimen name="top_margin_text_details">60dp</dimen>
+    <dimen name="left_padding_text_details">16dp</dimen>
+    <dimen name="right_padding_text_details">16dp</dimen>
+    <dimen name="size_text_details">15sp</dimen>
+    <dimen name="top_margin_edit_text">16dp</dimen>
+    <dimen name="size_text_edit_text">15sp</dimen>
+    <dimen name="top_margin_click_text">36dp</dimen>
+    <dimen name="click_button_size_text">16sp</dimen>
+    <dimen name="marg_bottom_start_button">16dp</dimen>
+    <dimen name="marg_top_start_button">90dp</dimen>
+</resources>
